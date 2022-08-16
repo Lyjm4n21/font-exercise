@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <p class="free">freeCodeCamp.org <span class="fcc">@freeCodeCamp 1h</span></p>
+  <p class="mac">As a web developer,you'll want your project easy to use and navigate around.</p>
+  <p class="here">Here <span class="chp">@chp_it</span> outlines the top skills new developers should have.</p>
+  <p></p>
+  <p></p>
+</body>
+</html>
+
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.free {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.fcc {
+  color: grey;
+  font-weight: normal;
+}
+.mac {
+  width: 440px;
+  margin-bottom: 24px;
+}
+.chp {
+  color: rgb(40, 154, 224);
+}
+  
