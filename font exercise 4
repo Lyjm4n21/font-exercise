@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <p>1,049.61 <span class="num">USD</span></p>
+  <p class="mac">+18.05(1.75%)today</p>
+  <p class="hours">After hours 1,048.00 <span class="one">-1.61(0.15%)</span></p>
+  <p></p>
+  <p></p>
+</body>
+</html>
+
+p{
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.num {
+  color: gray;
+  font-size: 10px;
+}
+.mac {
+  color: green;
+  font-size: 12px;
+  margin-top: 6px;
+  margin-bottom: 7px;
+}
+.hours {
+  color: gray;
+  font-size: 12px;
+}
+.one {
+  color: red;
+}
