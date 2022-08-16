@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+  <p class="new">New</p>
+  <p class="mac">MacBook Pro</p>
+  <p class="super">Supercharged for pros.</p>
+  <p class="nine">From $1999</p>
+  <p><span class="buy">Buy</span></p>
+</body>
+</html>
+
+p {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.new {
+  color: orange;
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+.mac {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.super {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.nine {
+  font-size: 12px;
+  margin-bottom: 16px;
+}
+.buy {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 7px 15px;
+  border-radius: 30px;
+}
